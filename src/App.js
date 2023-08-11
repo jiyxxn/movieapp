@@ -7,7 +7,7 @@ import './styles/App.css'
 
 function App() {
   return (
-    <BrowserRouter basename={Process.env.PUBLIC_URL}>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Navigation />
       <Routes>
         <Route path="/" element={<Home />} />
